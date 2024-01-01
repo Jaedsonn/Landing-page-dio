@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+#home-page {
+  height: 705px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 75, 110, 0.942), rgb(0, 0, 0) 100%), url(assets/image\ 2.png);
+  background-blend-mode:multiply;
+}
+
+#home-cont {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#home-page img {
+  width: 268px;
+  height: 268px;
+  border-radius: 268px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#home-page h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: norma;
+  background: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#home-page p {
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 510px;
+}
+
+#home-page input {
+  background-color: transparent;
+  display: flex;
+  width: 326px;
+  padding: 19px 91px;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+  border: 2px solid #3ba1cd;
+  color: #31a8dd;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 3.36px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: #33a8db;
+}
+
+#learn {
+  height: 705px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+#learn-cont {
+  height: 68%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+#learn h1 {
+  color: #33a8db;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6.08px;
+}
+
+#learn p {
+  width: 820px;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#learn .links {
+  display: flex;
+  width: 535px;
+  padding: 16px 127px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 57px;
+  border: 1px solid #33a8db;
+  background: #252525;
+  box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.4) inset;
+  word-spacing: 1px;
+  text-wrap: nowrap;
+}
+
+#learn .links a {
+  color: #33a8db;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  white-space: pre;
+}
+
+#img {
+  width: 100%;
+  height: 363px;
+  flex-shrink: 0;
+  background: url("assets/thisisengineering-raeng-8hgmG03spF4-unsplash\ 1.png");
+  background-size: 100% 363px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#img h1 {
+  width: 244px;
+  height: 141px;
+  color: #fff;
+  text-shadow: 3px 2px 0px #33a8db;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-left: 15%;
+}
+
+#propaganda {
+  height: 705px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+#propaganda h1 {
+  color: #33a8db;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6.08px;
+}
+
+#propaganda img {
+  width: 659px;
+  height: 429px;
+  flex-shrink: 0;
+}
+
+#propaganda p {
+  width: 792px;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 60px;
+}
+
+#final {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-top: 1px solid #33a8db;
+
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0) 0%,
+    rgb(9, 31, 40) 99.99%,
+    rgb(11, 51, 68) 100%
+  );
+}
+
+#final #vetores {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 310px;
+  height: 44px;
+}
+
+#final #vetores #dio {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#final #vetores #make {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+#final #vetores #dio #pingo {
+  width: 12.839px;
+  height: 12.881px;
+  flex-shrink: 0;
+  position: absolute;
+}
+
+#final #vetores #change {
+  height: 52px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#final p {
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+#final p a {
+  color: #33a8db;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
